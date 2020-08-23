@@ -435,7 +435,7 @@ main a {
 .happening .sub-meta,
 .happening .profile-name a + a {
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: var(--greytext);
 }
 
@@ -446,7 +446,7 @@ main a {
 .happening-profile img.profile-image {
   width: 4.5rem;
   height: 4.5rem;
-  margin-right: 1.6rem;
+  margin-right: 1.0rem;
 }
 
 .happening-profile .profile-name {
@@ -454,7 +454,7 @@ main a {
 }
 
 .happening-left {
-  padding-right: 1rem;
+  padding-right: 1.5rem;
 }
 
 .happening-image {
@@ -462,6 +462,8 @@ main a {
   height: 6.5rem;
   border-radius: 1.5rem;
   overflow: hidden;
+  margin-top: 6px;
+  margin-right: 4px;
 }
 
 .happening-image img {
