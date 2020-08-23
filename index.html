@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TweetWithUs</title>
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- ** LEFT SIDEBAR ** -->
+    <aside class="navigation">
+
+      <!-- TOP -->
+      <div class="top">
+
+        <!-- Brand -->
+        <div class="brand">
+          <!-- <a href="#"> -->
+            <!-- <i class="fab fa-twitter"></i> -->
+            <img src="images/bird-logo.png" width="50px" height="50px" style="margin-bottom: -15px !important; margin-left: -10px !important;">
+            <span style="font-size: 31px; font-weight: 700; margin-top: -10px; color: #1DA1F2;" >TweetWithUs</span>
+          <!-- </a> -->
+        </div>
+
+        <!-- Navigation -->
+        <nav>
+          <ul style="margin-left: -10px !important; margin-right: 10px !important;">
+            <li>
+              <a href="#" class="active">
+                <i class="fas fa-home"></i> <span style="margin-left: -5px;">Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-hashtag"></i> <span>Explore</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="">
+                <i class="far fa-bell"></i> <span>Notifications</span>
+              </a>
+            <li>
+              <a href="#">
+                <i class="fas fa-envelope"></i> <span style="margin-left: -2px;">Messages</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="far fa-bookmark"></i> <span style="margin-left: 4px;"> Bookmarks</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-list"></i> <span>Lists</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="far fa-user"></i> <span style="margin-left: 2px;">Profile</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="far fa-comment-dots"></i> <span>More</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Tweet Button -->
+        <button class="btn btn--tweet">
+          <span >Tweet</span>
+          <i class="fa fa-comment"></i>
+        </button>
+      </div>
+
+      <!-- BOTTOM -->
+      <div class="bottom">
+        <a href="#" class="profile-container">
+          <div class="profile">
+            <img src="https://placebeard.it/320x320" alt="Jesse James Burton" />
+            <div class="profile__name">
+              <strong>Aakriti Gupta</strong>
+              <span>@aakritigupta</span>
+            </div>
+          </div>
+          <div class="arrow"><i class="fas fa-angle-down"></i></div>
+        </a>
+      </div>
+    </aside>
+
+    <!-- ** MAIN ** -->
+    <div class="main">
+
+      <div class="main-header">
+        <span>
+          <a href="#">Home</a>
+        </span>
+        <span>
+          <a href="#" class="hover-link"><i class="far fa-star"></i></a>
+        </span>
+      </div>
+
+      <form class="tweet-form">
+        <div class="tweet-image">
+          <img class="profile-image" src="https://placebeard.it/320x320" alt="Jesse James Burton" />
+        </div>
+        <div class="tweet-input">
+          <input type="text" placeholder="What's Happening?" />
+          <div class="tweet-buttons">
+            <div class="tweet-icons">
+              <a href="#" class="hover-link"><i class="far fa-image"></i></a>
+              <a href="#" class="hover-link"><i class="fas fa-poll"></i></a>
+              <a href="#" class="hover-link"><i class="far fa-smile-beam"></i></a>
+              <a href="#" class="hover-link"><i class="fas fa-calendar-day" title="Calendar"></i></a>
+            </div>
+            <button class="btn" disabled>Tweet</button>
+          </div>
+        </div>
+      </form>
+
+      <!-- TWEETS -->
+      <div class="tweets">
+        <div class="tweet">
+          <div class="tweet-image">
+            <img class="profile-image" src="https://placebeard.it/320x320" alt="Jesse James Burton" />
+          </div>
+          <div class="tweet-content">
+            <div class="latest-info">
+              <i class="fas fa-retweet"></i>
+              Sonika Gupta Retweeted
+            </div>
+            <header class="tweet-header">
+              <div class="author-info">
+                <a href="#" class="author-name">Aakriti Gupta</a>
+                <span class="author-tag">@aakritigupta</span>
+                <span class="author-time">. 9m</span>
+              </div>
+              <div class="dropdown">
+                <a class="hover-link" href="#">
+                  <i class="fas fa-angle-down"></i>
+                </a>
+              </div>
+            </header>
+            <div class="tweet-body">
+              <p>I'm baby sustainable wolf XOXO, everyday carry vegan biodiesel narwhal ugh jean shorts portland
+                microdosing fam artisan. Locavore affogato DIY semiotics knausgaard chicharrones iceland.</p>
+            </div>
+            <footer class="tweet-footer">
+              <a href="#" class="comment">
+                <span><i class="far fa-comment"></i></span>
+              </a>
+              <a href="#" class="retweet">
+                <span><i class="fas fa-retweet"></i></span>
+              </a>
+              <a href="#" class="like">
+                <span><i class="fas fa-heart"></i></span>
+              </a>
+              <a href="#" class="share">
+                <span><i class="fas fa-share-square"></i></span>
+              </a>
+            </footer>
+          </div>
+        </div>
+
+        <div class="tweet hasthread">
+          <div class="tweet-image">
+            <img class="profile-image" src="https://placebeard.it/320x320?tweet2" alt="Jesse James Burton" />
+          </div>
+          <div class="tweet-content">
+            <div class="latest-info">
+              <i class="fas fa-heart"></i>
+              Aakriti Gupta Liked
+            </div>
+            <header class="tweet-header">
+              <div class="author-info">
+                <a href="#" class="author-name">Mayank Sharma</a>
+                <span class="author-tag">@mayanksharma</span>
+                <span class="author-time">. 15m</span>
+              </div>
+              <div class="dropdown">
+                <a class="hover-link" href="#">
+                  <i class="fas fa-angle-down"></i>
+                </a>
+              </div>
+            </header>
+            <div class="tweet-body">
+              <p>Asuere diam. Proin ante lacus, suscipit id arcu ac, pulvinar congue leo. Donec a aliquam tortor.Nunc
+                consectetur nulla odio, vel facilisis ex egestas non. Morbi eu tortor cursus, fringilla velit
+                eget,</p>
+            </div>
+            <footer class="tweet-footer">
+              <a href="#" class="comment">
+                <span><i class="far fa-comment"></i></span> 4
+              </a>
+              <a href="#" class="retweet">
+                <span><i class="fas fa-retweet"></i></span> 47
+              </a>
+              <a href="#" class="like">
+                <span><i class="fas fa-heart"></i></span> 142
+              </a>
+              <a href="#" class="share">
+                <span><i class="fas fa-share-square"></i></span>
+              </a>
+            </footer>
+          </div>
+        </div>
+        <div class="tweet thread">
+          <div class="tweet-image">
+            <img class="profile-image" src="https://placebeard.it/320x320?tweet2" alt="Jesse James Burton" />
+          </div>
+          <div class="tweet-content">
+            <a href="#">Show this thread</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ** RiGHT SIDEBAR ** -->
+    <aside class="sidebar">
+      <form class="search-form">
+        <input type="search" placeholder="Search Twitter" />
+      </form>
+
+      <div class="whats-happening">
+        <h4>What's Happening</h4>
+        <div class="happening">
+          <div class="happening-left">
+            <div class="meta">
+              US news . 2 hours ago
+            </div>
+            <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+          </div>
+          <div class="happening-right">
+            <div class="happening-image">
+              <img src="https://placekitten.com/g/200/300?rand" alt="Kitten">
+            </div>
+          </div>
+        </div>
+
+        <div class="happening">
+          <div class="happening-left">
+            <div class="meta">
+              US news . 2 hours ago
+            </div>
+            <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. ipsum dolor sit ipsum dolor sit
+            </div>
+            <div class="sub-meta">
+              4,320 Tweets
+            </div>
+          </div>
+          <div class="happening-right">
+            <div class="happening-more">
+              <a class="hover-link" href="#">
+                <i class="fas fa-angle-down"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <footer class="happening-footer">
+          <a href="#">
+            Show more
+          </a>
+        </footer>
+
+      </div>
+
+      <div class="whats-happening">
+        <h4>Who to Follow</h4>
+        <div class="happening">
+          <div class="happening-left">
+            <div class="happening-profile">
+              <img class="profile-image" src="https://placebeard.it/320x320?tweetsdfdsf2" alt="Jesse James Burton" />
+              <div class="profile-name">
+                <a href="#">Feat1st</a>
+                <a href="#">@feat1st</a>
+              </div>
+            </div>
+          </div>
+          <div class="happening-right">
+            <button class="btn btn--follow">Follow</button>
+          </div>
+        </div>
+
+        <div class="happening">
+          <div class="happening-left">
+            <div class="happening-profile">
+              <img class="profile-image" src="https://placebeard.it/320x320?tweet2dsfas" alt="Jesse James Burton" />
+              <div class="profile-name">
+                <a href="#">MaaShakti</a>
+                <a href="#">@maashakti</a>
+              </div>
+            </div>
+          </div>
+          <div class="happening-right">
+            <button class="btn btn--follow">Follow</button>
+          </div>
+        </div>
+
+        <footer class="happening-footer">
+          <a href="#">
+            Show more
+          </a>
+        </footer>
+      </div>
+
+      <footer class="sidebar__footer">
+        <div>
+          <a href="#">Terms</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Cookies</a>
+          <a href="#">Ads info</a>
+          <a href="#">More <i class="fas fa-angle-down"></i></a>
+        </div>
+        <div>
+          &copy 2020 Twitter, Inc
+        </div>
+      </footer>
+
+    </aside>
+    </main>
+
+    <div id="popup" class="popup">
+      <header>
+        <img class="profile-image profile-image--nohover" src="https://placebeard.it/320x320?tweet2dsfas"
+          alt="Jesse James Burton" />
+        <div>
+          <button class="btn btn--follow following">Following</button>
+        </div>
+      </header>
+      <div class="popup__text">
+        <div class="popup__name"><a href="#">John Doe</a></div>
+        <div class="popup__meta">
+          <a href="#">@JoeDoe</a>
+          <span class="follows">Follows you</span>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, a sunt.</p>
+        <div class="popup__following">
+          <div>
+            <strong>1,234</strong>
+            Following
+          </div>
+          <div>
+            <strong>1,432</strong>
+            Followers
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p>Not followed by anyone you're following</p>
+      </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
